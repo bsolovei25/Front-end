@@ -1,0 +1,80 @@
+
+.div1{
+	display:flex;
+}
+.div1 button{
+	width :30px;
+	height :20px;
+}
+
+.div2{
+	display:flex;
+}
+
+.div2 button{
+	width :30px;
+	height :20px;
+}
+
+
+
+#but5{
+	width :60px;
+	height :30px;
+	background-image: url(../img/eq.png);
+	background-size:20px;
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 18px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */           /* make this the size of your image */
+    vertical-align: middle;
+}
+
+.div1 button:nth-child(1){
+	background-image: url(../img/plus.png);
+	background-size:20px;
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 5px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */           /* make this the size of your image */
+    vertical-align: middle;
+}
+
+.div1 button:nth-child(2){
+	background-image: url(../img/minus.png);
+	background-size:20px;
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 5px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */           /* make this the size of your image */
+    vertical-align: middle;
+}
+
+.div2 button:nth-child(1){
+	background-image: url(../img/mult.png);
+	background-size:20px;
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 5px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */           /* make this the size of your image */
+    vertical-align: middle;
+}
+.div2 button:nth-child(2){
+	background-image: url(../img/divide.png);
+	background-size:20px;
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 5px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */           /* make this the size of your image */
+    vertical-align: middle;
+}
+
+.div2 button{
+	width :30px;
+	height :20px;
+}
