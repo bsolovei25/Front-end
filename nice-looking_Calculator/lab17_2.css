@@ -1,0 +1,36 @@
+
+
+.secondndtask{
+	display:flex;
+	flex-direction: column;
+}
+
+#fisrtrow,#secondrow,#thirdrow,#zerorow,#forstdrow{
+	display:flex;
+	flex-direction:row!important;
+
+}
+
+#first,#second,#thirsd,#forsth,#fiths,#sixth,#seventh,#eights,#nines,#zerorow,#c,#ozero,#s{
+	padding:15px;
+	margin:10px;
+	border:1px solid black;
+}
+
+/*div{
+	border:1px solid black;
+	width:100px;
+}*/
+
+#zerorow{
+	width:130px;
+}
+
+.core{
+	display:flex;
+	flex-direction:row;
+}
+
+#emptyfield{
+	margin:25px;
+}
